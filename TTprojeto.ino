@@ -24,12 +24,12 @@ int status;//variavel para indicar o status da vaga (0-ocupado 1-livre)
 int statusCatraca;//variavel para indicar o status da catraca (0-fechado 1-aberto)
 
 // Configuração da rede WiFi com as credenciais corretas:
-const char* WIFI_NAME = "Bernardo";
-const char* WIFI_PASSWORD = "19812002";
+const char* WIFI_NAME = "Sua rede";
+const char* WIFI_PASSWORD = "Sua senha";
 
 // Parâmetros da nuvem ThingSpeak
-const int myChannelNumber = 2200619;
-const char* myApiKey = "ZRSXGN1NG350Q2E4";
+const int myChannelNumber = //Numero do canal;
+const char* myApiKey = "Sua chave";
 const char* server = "api.thingspeak.com";
 
 WiFiClient client;//criação de um "objeto" client para referências futuras
